@@ -3,7 +3,7 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
-@import "./global/seguros.css";
+@import "./global/footer.css";
 
 /* Componentes */
 @import "./utilidades/componentes.css";
