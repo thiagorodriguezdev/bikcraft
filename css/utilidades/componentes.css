@@ -63,3 +63,27 @@
     font-size: 1rem;
   }
 }
+
+/* titulo internas */
+
+.termos-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.termos-titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .termos-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .termos-titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
