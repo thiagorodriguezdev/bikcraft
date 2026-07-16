@@ -69,6 +69,9 @@
 
 @media (max-width: 600px) {
   .perguntas dt {
+    font-size: 16px;
+  }
+  .perguntas dd {
     font-size: 14px;
   }
 
