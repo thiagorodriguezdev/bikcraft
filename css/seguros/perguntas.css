@@ -66,3 +66,13 @@
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 600px) {
+  .perguntas dt {
+    font-size: 14px;
+  }
+
+  .perguntas dt:hover::before{
+  width: 12px;
+}
+}
