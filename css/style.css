@@ -1,12 +1,12 @@
-@import "./global/global.css";
-@import "./utilidades/tipografia.css";
+/* Utilidades e Variáveis */
 @import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
 
+/* Estilos Globais e Reset */
+@import "./global/global.css";
 @import "./global/header.css";
 @import "./global/footer.css";
-
-/* Componentes */
-@import "./utilidades/componentes.css";
 
 /* Home */
 @import "./home/introducao.css";
@@ -15,13 +15,13 @@
 @import "./home/depoimento.css";
 
 /* Bicicletas */
-@import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicletas-lista.css";
 
 /* Seguros */
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
-/* teremos */
+/* Termos */
 @import "./termos/termos.css"
