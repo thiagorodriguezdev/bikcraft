@@ -33,7 +33,7 @@
   transition: width 0.3s;
 }
 
-.perguntas dt:hover::before{
+.perguntas dt:hover::before {
   width: 24px;
 }
 
@@ -75,7 +75,7 @@
     font-size: 14px;
   }
 
-  .perguntas dt:hover::before{
-  width: 12px;
-}
+  .perguntas dt:hover::before {
+    width: 12px;
+  }
 }
